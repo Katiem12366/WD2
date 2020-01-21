@@ -38,6 +38,8 @@ grid-area: footer;
     "header header"
     "nav main"
     "footer footer";
+    body: background: linear-gradient(to right, lightgreen, teal);
+
     }
 
 
