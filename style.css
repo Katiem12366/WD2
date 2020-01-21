@@ -14,6 +14,8 @@ nav {
 .header {
 background-color: red;
 grid-area: header;
+    header h1: 5vw;
+   
 }
 
 
@@ -37,4 +39,5 @@ grid-area: footer;
     "nav main"
     "footer footer";
     }
+
 
