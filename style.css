@@ -1,4 +1,6 @@
-body {background: linear-gradient(to right, lightgreen, teal);
+
+body {
+ background: linear-gradient(to right, lightgreen, teal);
 }
            
 .nav {
@@ -11,6 +13,26 @@ nav {
     background:rgba(0,0,0,.2);
     }
 
+nav ul {
+   padding:10px;
+   margin:0;
+}
+
+nav li {
+    padding:10px 10px;
+    list-style-type:none;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+nav a {
+    text-decoration:none;
+    color:navy;
+}
+
+a:hover {
+    color:white;
+}
 
 
 .header {
