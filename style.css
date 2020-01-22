@@ -39,6 +39,7 @@ a:hover {
 background-color: red;
 grid-area: header;
     header h1: 5vw;
+ header h3: 2vw;
    
 }
 
@@ -46,11 +47,14 @@ grid-area: header;
 .main {
 background-color: yellow;
 grid-area: main;
+ main h2: 3em;
+ main p: 1em;
 }
 
 .footer {
 background-color: purple;
 grid-area: footer;
+ footer p: 1em;
 }
 
 .container1 { /*for index.html*/
