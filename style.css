@@ -1,12 +1,10 @@
 
 body {
  background: linear-gradient(to right, lightgreen, teal);
+ font-family: Verdana;
+ margin: 0;
 }
            
-.nav {
-background-color: blue;
-grid-area: nav;
-}
 
 nav {
     grid-area:nav;
@@ -35,40 +33,49 @@ a:hover {
 }
 
 
-.header {
+header {
 background-color: red;
 grid-area: header;   
 }
 
 header h1 {
  font-size: 5vw;
+ color: mediumspringgreen;
+ text-shadow: 2px 2px 5px navy;
+ 
 }
 
 header h3 {
  font-size:2vw;
+ color:navy;
+ 
 }
 
 
-.main {
+main {
 background-color: yellow;
 grid-area: main;
+ padding:5px;
 }
 
 main h2 {
  font-size:3em;
+  color:navy;
 }
 
 main p {
  font-size:1em;
+ color:white;
 }
 
-.footer {
+footer {
 background-color: purple;
 grid-area: footer;
 }
 
 footer p {
  font-size:1em;
+ color:white;
 }
 
 .container1 { /*for index.html*/
