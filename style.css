@@ -37,24 +37,38 @@ a:hover {
 
 .header {
 background-color: red;
-grid-area: header;
-    header h1: 5vw;
- header h3: 2vw;
-   
+grid-area: header;   
+}
+
+header h1 {
+ font-size: 5vw;
+}
+
+header h3 {
+ font-size:2vw;
 }
 
 
 .main {
 background-color: yellow;
 grid-area: main;
- main h2: 3em;
- main p: 1em;
+}
+
+main h2 {
+ font-size:3em;
+}
+
+main p {
+ font-size:1em;
 }
 
 .footer {
 background-color: purple;
 grid-area: footer;
- footer p: 1em;
+}
+
+footer p {
+ font-size:1em;
 }
 
 .container1 { /*for index.html*/
