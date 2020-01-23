@@ -67,8 +67,9 @@ grid-area: main;
 }
 
 main h2 {
- font-size:3em;
+ font-size:2vw;
   color:navy;
+ margin:0;
 
 }
 
