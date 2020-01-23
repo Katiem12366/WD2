@@ -38,7 +38,7 @@ a:hover {
 header {
 background:rgba(0,0,0,.2);
 grid-area: header; 
- justify-self:center;
+tezt-align:center;
 }
 
 header h1 {
@@ -63,7 +63,6 @@ main {
 background:rgba(0,0,0,.2);
 grid-area: main;
  padding:5px;
- justify-self: center;
 }
 
 main h2 {
