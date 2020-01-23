@@ -1,4 +1,5 @@
 
+
 body {
  background: linear-gradient(to right, lightgreen, teal);
  font-family: Verdana;
@@ -9,7 +10,7 @@ body {
 nav {
     grid-area:nav;
     background:rgba(0,0,0,.2);
- justify-self:center;
+ 
  
     }
 
@@ -38,7 +39,7 @@ a:hover {
 header {
 background:rgba(0,0,0,.2);
 grid-area: header; 
-tezt-align:center;
+text-align:center;
 }
 
 header h1 {
@@ -69,6 +70,8 @@ main h2 {
  font-size:2vw;
   color:navy;
  margin:0;
+text-align:center;
+
 
 }
 
@@ -81,7 +84,9 @@ main p {
 footer {
 background:rgba(0,0,0,.2);
 grid-area: footer;
- justify-self:center;
+text-align:center;
+
+
 }
 
 footer p {
